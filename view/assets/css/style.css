@@ -1,0 +1,684 @@
+* {
+    font-family: fuentes;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    height: 140px;
+    align-items: center;
+}
+
+.header div {
+    display: flex;
+    height: 30px;
+    align-items: center;
+}
+
+.header {
+    margin-left: 30px;
+
+}
+
+.menulogin div {
+    margin-left: 50px;
+
+
+}
+
+.menulogin img {
+
+    height: 140px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.menulogin span {
+    display: flex;
+    padding: 15px;
+
+
+
+}
+.responsive{
+    width:100% ;
+    background-color: rgb(173, 12, 66);
+    list-style: none;
+  
+   color: white;
+}
+ .more{
+    
+     align-items: center;
+     justify-content: space-evenly;
+     padding: 50px;
+     display: none;
+ }
+#btn-menu{
+    display: none;
+}
+.responsive label{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px solid rgb(173, 12, 66);
+     
+}
+.responsive label:hover{
+    cursor: pointer;
+    background: rgb(0, 0, 3);
+}
+.menu ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.menu li:hover{
+background: rgb(255, 255, 255);
+}
+.menu li {
+    flex-grow: 1;
+}
+.menu li a{
+    display: block;
+    padding: 15px 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.position {
+    display: flex;
+  
+    background-color: rgb(173, 12, 66);
+    padding: 15px 0px;
+    box-shadow: 3px 3px 10px rgb(207, 204, 30);
+
+    position: relative;
+}
+
+
+.menu a {
+    text-decoration: none;
+    padding: 0px 20px;
+    font-size: 1.3em;
+    color: white;
+    cursor: grab;
+}
+
+.banner {
+    display: flex;
+    height: 442px;
+    background-color: rgb(59, 255, 190);
+    align-items: center;
+    background-image: url(https://i.blogs.es/098b7c/helados1/1366_2000.jpg);
+    background-position: 50% 33%;
+}
+
+.banner>div {
+    align-items: center;
+    padding-left: 5%;
+    font-size: 1.5em;
+
+}
+
+.btnbanner {
+    width: 50%;
+    height: 35px;
+}
+
+.btncheck {
+    margin-top: 20px;
+    background-color: rgb(173, 12, 66);
+    color: white;
+    border-color: rgb(207, 204, 30);
+}
+
+.arrivals {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.btnarrivals {
+    width: 20%;
+    height: 34px;
+    margin-right: 20px;
+}
+
+.announcement {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 350px;
+
+}
+
+.announcement div {
+
+    width: 250px;
+    height: 250px;
+    background-color: rgb(16, 240, 165);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.mirror {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    background-color: lightslategray;
+
+}
+
+.carrusel {
+    width: 45%;
+
+}
+
+.footer {
+    align-items: center;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.info a {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+
+@media(max-width: 1024px) {
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        margin: 5px;
+        height: 100px;
+        align-items: center;
+    }
+
+    .header imput {
+        width: 30px;
+    }
+
+    .header h1 {
+        font-size: 25px;
+    }
+
+    .header div {
+        display: flex;
+        height: 50px;
+        align-items: center;
+    }
+
+    .header {
+        margin-left: 10px;
+        font-size: 15px;
+    }
+
+    .menulogin div {
+        margin-left: 10px;
+        padding: 20px;
+
+
+    }
+
+    .menulogin img {
+
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .menulogin span {
+        display: flex;
+        padding: 10px;
+
+
+
+    }
+.position {
+    font-size: 3px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .menu {
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(173, 12, 66);
+        padding: 15px 0px;
+        font-size: 13px;
+        position: relative;
+    }
+
+    .menu a {
+        padding: 0px 20px;
+        font-size: 1.3em;
+        color: white;
+        cursor: grab;
+    }
+
+    .banner {
+        display: flex;
+        height: 300px;
+        background-color: rgb(59, 255, 190);
+        align-items: center;
+        background-image: url(https://i.blogs.es/098b7c/helados1/1366_2000.jpg);
+        background-position: 50% 33%;
+        font-size: 12px;
+    }
+
+    .banner>div {
+        align-items: center;
+        padding-left: 5%;
+        font-size: 1.5em;
+
+    }
+
+    .btnbanner {
+        width: 50%;
+        height: 35px;
+    }
+
+    .btncheck {
+        margin-top: 10px;
+        background-color: rgb(173, 12, 66);
+        color: white;
+        border-color: rgb(207, 204, 30);
+    }
+
+    .arrivals {
+        display: flex;
+        flex-direction: row;
+        height: 170px;
+        background-color: rgb(255, 0, 0);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .btnarrivals {
+        width: 20%;
+        height: 34px;
+        margin-right: 20px;
+    }
+
+    .announcement {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 350px;
+
+    }
+
+    .announcement div {
+
+        width: 180px;
+        height: 180px;
+        background-color: rgb(16, 240, 165);
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        font-size: 15px;
+    }
+
+    .mirror {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: 350px;
+        background-color: lightslategray;
+
+
+    }
+
+    .carrusel {
+        width: 35%;
+        font-size: 20%;
+
+    }
+
+    .marquee {
+        font-size: 10px;
+    }
+
+    .footer h3 {
+        margin-top: 50px;
+
+    }
+
+    .footer {
+
+        align-items: center;
+        display: flex;
+        height: 200px;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+    .info {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .info a {
+        display: flex;
+        flex-direction: column;
+
+        margin-top: 10px;
+        margin-right: 50px;
+    }
+
+}
+
+@media(max-width:720px) {
+    .header {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+
+        margin: 5px;
+        height: 250px;
+
+
+    }
+
+
+    .header h1 {
+        display: none;
+        font-size: 15px;
+    }
+
+    .header div {
+
+
+        display: flex;
+        height: 50px;
+        align-items: center;
+
+    }
+    .header {
+        margin-left: 30px;
+
+    }
+  
+
+    .menulogin img {
+        margin-left: 200px;
+        height: 800px;
+        justify-content: center;
+        align-items: center;
+        margin-right: 200px;
+
+    }
+    .responsive label{
+        display: block;
+    }
+    .menu{
+        position: absolute;
+        background:  rgb(173, 12, 66);
+        width: 70%;
+        margin-left: -140%;
+        transition: all 0.5s;
+    }
+    .menu ul{
+        flex-direction: column ;
+    }
+    .menu li{
+        border-top: 1px solid #fff;
+    }
+    #btn-menu:checked ~ .menu{
+        margin: 0;
+    }
+    .menu{
+display: flex;
+
+    }
+
+    .menulogin span {
+        display: none;
+        padding: 50px;
+        margin-bottom: 30px;
+        cursor: pointer;
+
+
+    }
+
+    .menulogin {
+        text-align: center;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 200px;
+        justify-content: center;
+    }
+
+    .menulogin div {
+
+        display: flex;
+        align-items: center;
+      
+        font-size: 15px;
+
+
+
+
+    }
+    
+    
+
+    .banner {
+        text-align: center;
+        display: flex;
+        height: 250px;
+        background-color: rgb(59, 255, 190);
+        align-items: center;
+        background-image: url(https://i.blogs.es/098b7c/helados1/1366_2000.jpg);
+        background-position: 50% 33%;
+        font-size: 12px;
+    }
+
+    .banner>div {
+        align-items: center;
+        padding-left: 5%;
+        font-size: 1.5em;
+
+    }
+
+    .btnbanner {
+        width: 50%;
+        height: 35px;
+    }
+
+    .btncheck {
+        background-color: rgb(173, 12, 66);
+        color: white;
+        border-color: rgb(207, 204, 30);
+        align-items: center;
+        justify-content: center;
+    }
+
+    .arrivals {
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        background-color: rgb(255, 0, 0);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .btnarrivals {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        height: 34px;
+
+    }
+
+    .arrivals div {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .announcement {
+        display: flex;
+        text-align: center;
+
+        justify-content: space-evenly;
+        align-items: center;
+        height: 700px;
+        flex-direction: column;
+
+    }
+
+    .announcement div {
+
+        width: 180px;
+        height: 180px;
+        background-color: rgb(16, 240, 165);
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        font-size: 15px;
+        margin-bottom: 50px;
+        padding: 40px;
+    }
+
+    .mirror {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: 350px;
+        background-color: lightslategray;
+
+
+    }
+
+    .carrusel {
+        width: 35%;
+        font-size: 20%;
+
+    }
+
+    .marquee {
+        font-size: 10px;
+    }
+
+    .footer h3 {
+        margin-top: 50px;
+
+    }
+
+    .footer {
+
+        align-items: center;
+        display: flex;
+        height: 200px;
+        justify-content: center;
+
+    }
+
+
+    .info {
+        display: flex;
+        flex-direction: row;
+        font-size: 10px;
+
+    }
+
+    .info a {
+        display: none;
+    }
+.info h5{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    margin-left: 200px;
+
+}
+.info h4{
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+
+    display: none;
+  
+}
+
+.link{
+    
+ margin-right: 250px;
+   margin-top: 100px;
+   justify-content: center;
+    align-items: center;
+
+}
+.link h5{
+    display: none;
+
+    
+}
+.lid lit{
+    margin-left: 80px;
+    margin: 40px;
+align-items: center;
+justify-content: space-evenly;
+    display: flex;
+        flex-direction: row;
+}
+}

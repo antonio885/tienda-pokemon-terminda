@@ -1,0 +1,464 @@
+
+body{
+    background-color: rgb(215, 215, 215);
+    font-family: 'Times New Roman', Times, serif;
+}
+.navegador {
+ 
+ justify-content: space-evenly;
+
+    margin-top: 5px;
+
+    
+}
+.navegador button {
+   width: 90px;
+    background-color: aqua;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    left: 5%;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.barra{
+    display: flex;
+   
+    align-items: center;
+    padding-left: 10px;
+    margin-top: 10px;
+    width: 100%;
+    height: 60px;
+background-color: rgb(0, 0, 0);
+}
+.barra button {
+    color: white;
+    background-color: black;
+    margin: 15px;
+    font-size: 19px;
+}
+.cajon1{
+    display: flex;
+    background-image: url(https://images7.alphacoders.com/103/1030536.jpg); 
+  
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+    background-size: cover;
+border-radius: 15px 15px 15px ;
+border: 3px solid black;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 80%;
+    margin-right: 30px ;
+}
+.carrusel{
+  margin-left: 5px;
+    margin-top: 15px;
+    width: 270px;
+    
+}
+.cajon1 p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.cajon1 button{
+    border-radius: 15px 15px 15px ;
+    border-bottom: 3px solid black;
+    box-shadow: 3px 4px 15px 4px black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
+
+   
+
+.barra a{
+    margin: 20px;
+   align-items: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px ;
+
+}
+.publicidad{
+    display: flex;
+margin-top: 10px;
+
+}
+
+.cajon2{
+    text-align: center;
+    background-image: url(../img/descarga.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width:20% ;
+    border: 4px solid black;
+    border-radius: 10px 10px 10px;
+    
+}
+.cajon2 p{
+font-family: 'Times New Roman', Times, serif;
+font-size: 25px;
+font-weight: bold;
+
+}
+.cajon2 button{
+    height:50px;
+    width: 120px ;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-bottom: 20px 20px 20px black;
+    box-shadow: 5px 5px 10px;
+    border-radius: 10px 10px;
+    cursor:  pointer;
+}
+.barra2{
+    background-color: rgb(246, 246, 246) ;
+border: 3px solid;
+    margin-top: 30px;
+    width: 100%;
+    height: 400px;
+  font-size: 20px;
+  
+}
+
+.content{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center; 
+   
+    
+}
+
+.barra3{
+    margin-top: 10px;
+    width: 100%;
+    height: 250px;
+   font-size: 20px;
+}
+
+.esquema{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    border: 30px ;
+    margin-top: 35px;
+    background-color: white;
+    border: 2px solid;
+}
+.esquema div{
+    border: 3px solid whitesmoke;
+}
+
+.publicidad2 {
+  display: flex;
+ font-size: 20px;
+color: black;
+   font-weight: bolder;
+
+}
+.publicidad2 button{
+    height: 35px;
+    width: 120px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px solid;
+    border-radius: 10px 10px 10px;
+    box-shadow: 4px 6px 5px;
+}
+.cuadro{  
+    
+    background-image: url(../img/descarga\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 50%;
+    margin-right: 50px;
+
+}
+.text{
+    
+    display: block;
+    margin-right: 400px;
+    margin-top: 40px;
+    text-align: center;
+    justify-content: center;
+    
+}
+.cuadro2{
+    background-image: url(../view/assets/img/descarga\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 50%;
+    
+}
+.text2{
+  display: block;
+  margin-top: 40px;
+  margin-right: 300px;
+  text-align: center;
+  justify-content: center; 
+}
+.publicidad3 {
+    display: flex;
+    flex-direction:row;
+    margin-top: 30px;
+    background-color: white;
+    height: 400px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.carta{
+  
+    background-image: url(/view/assets/img/teniss.png);
+   background-size: cover;
+   
+    height: 300px;
+    width: 50%;   
+    margin-right: 30px;
+   
+}
+.carta2{
+    background-image: url(/view/assets/img/teniss.png);
+   background-size: cover;
+    height: 300px;
+    width: 50%; 
+    margin-left: 10px;
+}
+.carta3{
+    background-image: url(/view/assets/img/teniss.png);
+  background-size: cover;
+    height: 300px;
+    width: 50%; 
+    margin-left: 30px;
+}
+.carta div{
+    display: flex;
+    flex-direction: column;
+;
+}
+.carta2 div{
+    display: flex;
+    
+   
+}
+.descripcion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  margin-top: 315px;
+
+height: 40px;
+    width: 100%;    
+    
+}
+.descripcion2{
+
+    display: flex;
+    margin-top: 315px;
+height: 40px;
+    width: 100%;  
+    align-items: center;
+    justify-content: center;
+}
+.descripcion3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 315px;
+   
+    height: 40px;
+        width: 100%;   
+}
+
+.publicidad4 {
+    display: flex;
+    flex-direction:row;
+    
+    background-color: white;
+    height: 400px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.carta4{
+  
+    background-image: url(/view/assets/img/teniss.png);
+   background-size: cover;
+   
+    height: 300px;
+    width: 50%;   
+    margin-right: 30px;
+   
+}
+.carta5{
+    background-image: url(/view/assets/img/teniss.png);
+   background-size: cover;
+    height: 300px;
+    width: 50%; 
+    margin-left: 10px;
+}
+.carta6{
+    background-image: url(/view/assets/img/teniss.png);
+  background-size: cover;
+    height: 300px;
+    width: 50%; 
+    margin-left: 30px;
+}
+.carta4 div{
+    display: flex;
+    flex-direction: column;
+;
+}
+.carta5 div{
+    display: flex;
+    
+   
+}
+.descripcion4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  margin-top: 315px;
+
+height: 40px;
+    width: 100%;    
+    
+}
+.descripcion5{
+
+    display: flex;
+    margin-top: 315px;
+height: 40px;
+    width: 100%;  
+    align-items: center;
+    justify-content: center;
+}
+.descripcion6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 315px;
+   
+    height: 40px;
+        width: 100%;   
+}
+.publicidad5{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    
+    height: 200px;
+    width: 100%;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+
+
+@media (max-width: 767px) {
+#featureContainer .carousel-inner .carousel-item > div {
+    display: none;
+}
+#featureContainer .carousel-inner .carousel-item > div:first-child {
+    display: block;
+}
+}
+
+#featureContainer .carousel-inner .carousel-item.active,
+#featureContainer .carousel-inner .carousel-item-next,
+#featureContainer .carousel-inner .carousel-item-prev {
+display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+
+#featureContainer .carousel-inner .carousel-item-end.active,
+#featureContainer .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+}
+
+#featureContainer .carousel-inner .carousel-item-start.active, 
+#featureContainer .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+}
+#featureContainer .card img{
+    width: 90%;
+    height: auto;
+}
+#featureContainer .carousel-item{
+    justify-content: space-between;
+}
+}
+@media (max-width: 767px) {
+#featureContainer .card img{
+    width: 100%;
+    height: 75vh;
+}
+}
+#featureContainer .carousel-inner .carousel-item-end,
+#featureContainer .carousel-inner .carousel-item-start { 
+transform: translateX(0);
+}
+#featureContainer .card{
+border: 0;
+}
+#featureContainer .card{
+position: relative;
+}
+#featureContainer .card .card-img-overlays{
+position: absolute;
+bottom: 15%;
+left: 10%;
+}
+#featureContainer a{
+text-decoration: none;
+}
+#featureContainer .indicator{
+border: 1px solid rgb(202, 202, 202);
+padding: 3px 6px 3px 6px;
+}
+#featureContainer .indicator:hover{
+background-color: blue;
+border: 1px solid blue;
+transition: 200ms;
+}
+#featureContainer .indicator:hover{
+color: white;
+transition: 200ms;
+}
+#featureContainer .indicator {
+color: lightgray;
+}
+#featureContainer .float-end{
+padding-top: 10px;
+}

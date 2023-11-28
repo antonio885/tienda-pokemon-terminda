@@ -1,0 +1,38 @@
+.informacionInput{
+    display: block;
+    justify-content: center;
+}
+.division1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+.division1 input{
+    width: 210px;
+    height: 35px;
+}
+.division2{
+    display: flex;
+    justify-content: center;
+ align-items: center;
+ margin-bottom: 50px;
+}
+.finalizarcompra{
+    display: flex;
+    justify-content: center;
+   
+}
+.finalizarcompra button{
+  background-color: aqua;
+  border-radius: 10px 10px 10px;
+  height: 40px;
+  width: 250px;
+}
+.finalizarcompra a{
+    text-decoration: none;
+    color: black;
+}
+.tablanabvar{
+    display: flex;
+    background-color: rgb(60, 173, 243);
+}

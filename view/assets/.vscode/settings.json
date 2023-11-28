@@ -1,0 +1,8 @@
+{
+    "vscode-pets.petType": "cat",
+    "vscode-pets.theme": "none",
+    "vscode-pets.position": "explorer",
+    "vscode-pets.petSize": "large",
+    "vscode-pets.throwBallWithMouse": false,
+    "liveServer.settings.port": 5501
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/css/borrador.css">
+</head>
+<body >
+    <div class="logo">
+        <div class="logo-circle"></div>
+        <div class="logo-text">Pokémon</div>
+      </div>
+     
+      
+     
+</body>
+</html>
+<!-- <script>
+
+    const evolutions = []
+    function getevolucion(){
+        return new Promise((resolve)=> {
+            fetch("https://pokeapi.co/api/v2/evolution-chain/1")
+            .then(Response => Response.json())
+            .then(data => {
+                console.log(data.results)
+data.results.forEach(element => {
+    evolutions.push(element)
+});
+resolve("evolucioness ok")
+
+            })
+         
+        })
+
+    }
+    function pojemo (){
+        let pokelist = " "
+        getevolucion()
+        .then(response =>{
+            pokelist += `<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">${element.chain.evolves_to}</p>
+  </div>
+</div>`
+        })
+        document.getElementById("evolucioness").innerHTML = pokelist
+    //     let evo = data.chain.evolves_to[0].species.name
+    //     document.getElementById(`${element.name}`)
+    // }
+   
+    }
+</script> -->
